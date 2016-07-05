@@ -1,7 +1,5 @@
 Theme name:    Adam
 Description:   Custom theme by Adam Greenough, based on default Anchor theme.
 Author name:   Adam Greenough
-Author site:   http://adamgreenough.com
+Author site:   https://adamgreenough.com
 License:       All rights reserved
-
-Testing FTPloy
