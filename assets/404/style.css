@@ -33,15 +33,6 @@
 	margin: auto;
 }
 
-#footer {
-	color: #d2d2d2;
-	max-width: 750px;
-	margin: auto;
-	font-size: 10px;
-	opacity: 0.2;
-	text-align: right;
-}
-
 
 @-webkit-keyframes blink {  
     from { opacity: 1.0; }
@@ -78,4 +69,10 @@ footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+}
+
+@media (max-width: 600px) {
+	#error {
+		font-size: 12px;
+	}
 }
