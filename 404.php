@@ -1,9 +1,46 @@
 <?php theme_include('header'); ?>
+<link rel="stylesheet" href="<?php echo theme_url('/assets/404/style.css'); ?>">
 
-	<section class="content wrap">
-		<h1>Page not found</h1>
 
-		<p>Unfortunately, the page <code>/<?php echo htmlspecialchars(current_url()); ?></code> could not be found. Your best bet is either to try the <a href="<?php echo base_url(); ?>">homepage</a>, try <a href="#search">searching</a>, or go and cry in a corner (although I don’t recommend the latter).</p>
-	</section>
+<!--                 
+			_.-;;-._
+     '-..-'|   ||   |
+     '-..-'|_.-;;-._|
+     '-..-'|   ||   |
+     '-..-'|_.-''-._|
+-->
+
+
+<div id="parent">
+<div id="child">
+	<div id="title">
+		Error 404
+	</div>
+	<div id="error">
+		A critical error from <?php echo $_SERVER['REMOTE_ADDR']; ?> has occurred whilst trying to access 
+		<SCRIPT LANGUAGE="JavaScript">
+		<!--
+			{
+				document.write(location.href);
+			}
+		// -->
+		</SCRIPT> 
+		on <? echo date("M-j-Y, G:i:s"); ?> using <?php echo $_SERVER['HTTP_USER_AGENT']; ?>.
+
+		<br /><br />
+		
+		<!-- Menu Links -->
+		*&nbsp;&nbsp;Click <a href="http://adamgreenough.com/">here</a> to reset to the home page.<br />
+		*&nbsp;&nbsp;Click <a href="mailto:adam@amazorize.com">here</a> if you think it's my fault and want to email me.<br />
+		
+		<br /><br />
+		
+		<center>Press any link to continue <blink>_</blink></center>
+		
+		</div>
+	</div>
+</div>
+</div>
+
 
 <?php theme_include('footer'); ?>
