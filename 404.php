@@ -18,13 +18,9 @@
 	</div>
 	<div id="error">
 		A critical error from <?php echo $_SERVER['REMOTE_ADDR']; ?> has occurred whilst trying to access 
-		<SCRIPT LANGUAGE="JavaScript">
-		<!--
-			{
-				document.write(location.href);
-			}
-		// -->
-		</SCRIPT> 
+		<script>
+			document.write(location.href);
+		</script> 
 		on <? echo date("M-j-Y, G:i:s"); ?> using <?php echo $_SERVER['HTTP_USER_AGENT']; ?>.
 
 		<br /><br />
