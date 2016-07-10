@@ -1,36 +1,14 @@
 /****************************************
  *
- * Adam Greenough Styles
+ * Adam Greenough Styles (Global CSS)
  *
  ****************************************/
  
-a.amazorize {
-	color: #1993DD; 	 
-	border-color: #1993DD; 
- }
- 
-a.atelier {
-	color: #B71A5D; 
-	border-color: #B71A5D; 
-}
 
-body, p {
-	font-family: 'Open Sans', sans-serif;
-}
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-}
 
-a {
-	cursor: pointer;
-}
 
-p a {
-	border-bottom: solid 3px #002269;
-	font-weight: bold;
-	color: #002269;
-}
+
 
 header#top {
 	height: 125px;
@@ -259,6 +237,65 @@ a.twitter-timeline .timeline-Tweet-text {
 	clear: both;
 }
 
+
+
+
+
+
+/****************************************
+ *
+ * Typography
+ *
+ ****************************************/
+
+body, p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p a {
+	border-bottom: solid 3px #002269;
+	font-weight: bold;
+	color: #002269;
+}
+
+a.amazorize {
+	color: #1993DD; 	 
+	border-color: #1993DD; 
+ }
+ 
+a.atelier {
+	color: #B71A5D; 
+	border-color: #B71A5D; 
+}
+
+/****************************************
+ *
+ * Header
+ *
+ ****************************************/
+ 
+/****************************************
+ *
+ * Footer
+ *
+ ****************************************/
+ 
+footer#bottom {
+	background: #1f1f1f;
+	color: #f7f7f7;
+	padding: 20px 0 25px;
+}
+
+footer#bottom a {
+	font-weight: bold;
+	color: #f7f7f7;
+	text-decoration: none;
+}
+
 .availability {
 	border-top: solid 1px #eeeeee;
 	border-bottom: solid 1px #eeeeee;
@@ -270,7 +307,24 @@ a.twitter-timeline .timeline-Tweet-text {
 	font-size: 11px;
 }
 
-.availability-switch { 
+#bottom ul {
+	float: right;
+	list-style: none;
+}
+	
+#bottom li {
+	float: left;
+	padding-left: 35px;
+	font-size: 14px;
+}	
+
+/****************************************
+ *
+ * Home Page
+ *
+ ****************************************/
+ 
+ .availability-switch { 
 	margin: 0px 10px 0px 0px;
 	height: 14px;
 	padding: 1px;
@@ -278,28 +332,24 @@ a.twitter-timeline .timeline-Tweet-text {
 	border: solid 1px #eeeeee; 
 	border-radius: 5px;
 	float: left;
-	}
+}
 	
-	.availability-switch .dot {
-		background: #2ecc71;
-		height: 10px;
-		border-radius: 5px;
-		width: 10px;
-		float: right;
-	}
-
-footer#bottom {
-	background: #1f1f1f;
-	color: #f7f7f7;
+.availability-switch .dot {
+	background: #2ecc71;
+	height: 10px;
+	border-radius: 5px;
+	width: 10px;
+	float: right;
 }
 
-footer#bottom a {
-	font-weight: bold;
-	color: #f7f7f7;
-}
-
+/****************************************
+ *
+ * Posts Page
+ *
+ ****************************************/
+ 
 .total-posts {
-		border-bottom: solid 1px #eeeeee;
+	border-bottom: solid 1px #eeeeee;
 	padding: 20px 10px 20px 10px;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 0.5px;
@@ -313,8 +363,8 @@ footer#bottom a {
 }
 
 .pagination {
-		margin-bottom: 0; 
-		padding: 20px 0px;
+	margin-bottom: 0; 
+	padding: 20px 0px;
 }
 
 .pagination, .pagination a {
@@ -346,8 +396,6 @@ footer#bottom a {
 	color: #fff;
 	opacity: 0.5;
 }
-
-
 
 /****************************************
  *
@@ -655,26 +703,6 @@ ul.commentlist {
 			background: #3c6eb7;
 		}
 
-/**
- *   Footer
- */
-#bottom {
-	padding: 20px 0 25px;
-
-}
-	#bottom ul {
-		float: right;
-		list-style: none;
-	}
-		#bottom li {
-			float: left;
-			padding-left: 35px;
-
-			font-size: 14px;
-		}
-		#bottom a {
-			text-decoration: none;
-		}
 
 
 
@@ -786,65 +814,71 @@ input, textarea {
 		padding: 0;
 		margin: 0 !important;
 	}
+	
 
-/**
- *   Transitions and animations
- */
+/****************************************
+ *
+ * Transitions & Animations
+ *
+ ****************************************/
+ 
+ 
 a, a img {
 	-webkit-transition: opacity .2s, color .2s;
 	-moz-transition: opacity .2s, color .2s;
 	transition: opacity .2s, color .2s;
 }
 
-/** Media Queries **/
+
+/****************************************
+ *
+ * Responsive
+ *
+ ****************************************/
 
 .mobile-menu {
 	display: none;
 }
 
-/* Large Column Breakpoint */
 @media (max-width: 1024px) {
-	
-#home-title h1 {
-    color: #ffffff;
-    position: relative;
-    z-index: 100;
-    font-size: 32px;
-    color: rgba(255,255,255,0.5);
-    opacity: 1;
-    line-height: 1.4;
-    width: 80%;
-    padding: 100px 0px 120px 0px;
-}
+	#home-title h1 {
+	    color: #ffffff;
+	    position: relative;
+	    z-index: 100;
+	    font-size: 32px;
+	    color: rgba(255,255,255,0.5);
+	    opacity: 1;
+	    line-height: 1.4;
+	    width: 80%;
+	    padding: 100px 0px 120px 0px;
+	}
 	
 	.sidebar-wrapper {
-    padding: 0px;
-    border-left: none;
-}
+	    padding: 0px;
+	    border-left: none;
+	}
 
-#instagram-wrapper img {
-    float: left;
-    width: 24%;
-    margin: 0% 1.333% 1.5% 0%;
-    border-radius: 5px !important;
-}
+	#instagram-wrapper img {
+	    float: left;
+	    width: 24%;
+	    margin: 0% 1.333% 1.5% 0%;
+	    border-radius: 5px !important;
+	}
 
-#instagram-wrapper img:last-child {
-	margin-right: 0%;
+	#instagram-wrapper img:last-child {
+		margin-right: 0%;
+	}
 
-}
-
-.slidey .large-6 {
-	margin-top: 30px;
-}
-
-.slidey .large-6:first-child {
-	margin-top: 0px;
-}
+	.slidey .large-6 {
+		margin-top: 30px;
+	}
+	
+	.slidey .large-6:first-child {
+		margin-top: 0px;
+	}
 }
 
 @media (max-width: 640px) {
-	
 	h1 {
 		font-size: 1.6em;
 	}
@@ -856,44 +890,46 @@ a, a img {
 	#bottom small {
 		font-size: 11px;
 	}
+	
 	#home-title h1 {
-    color: #ffffff;
-    position: relative;
-    z-index: 100;
-    font-size: 24px;
-    color: rgba(255,255,255,0.5);
-    opacity: 1;
-    line-height: 1.4;
-    width: 100%;
-    padding: 40px 0px 50px 0px;
-}
-#home-title .adam-face {
-    background-image: url('../img/adam_header_face.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    float: right;
-    height: 100%;
-    position: absolute;
-    right: -30px;
-    top: 0%;
-    width: 100%;
-    overflow: visible;
-    opacity: 0.8;
-}
+	    color: #ffffff;
+	    position: relative;
+	    z-index: 100;
+	    font-size: 24px;
+	    color: rgba(255,255,255,0.5);
+	    opacity: 1;
+	    line-height: 1.4;
+	    width: 100%;
+	    padding: 40px 0px 50px 0px;
+	}
+	
+	#home-title .adam-face {
+	    background-image: url('../img/adam_header_face.png');
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: 100% 100%;
+	    float: right;
+	    height: 100%;
+	    position: absolute;
+	    right: -30px;
+	    top: 0%;
+	    width: 100%;
+	    overflow: visible;
+	    opacity: 0.8;
+	}
 
-.default-page p {
-    font-family: 'Droid Serif', serif;
-    font-size: 19px;
-    margin-bottom: 20px;
-}
+	.default-page p {
+	    font-family: 'Droid Serif', serif;
+	    font-size: 19px;
+	    margin-bottom: 20px;
+	}
 }
 
 @media (max-width: 580px) {
-nav#main ul li {
-    width: 75px;
-}
+	nav#main ul li {
+	    width: 75px;
 	}
+}
 	
 @media (max-width: 480px) {
 	.mobile-menu {
@@ -904,20 +940,21 @@ nav#main ul li {
 	    display: none;
 	}
 	
-		nav#main.mobile-menu ul li {
+	nav#main.mobile-menu ul li {
 	    width: 100px;
 	    display: inline-block;
 	    float: right;
 	}
 	
 	nav.mobile-menu {
-	display: inline-block !important;
-	float: right;
-	width: 110px;
-}
-.default-page p {
-    font-family: 'Droid Serif', serif;
-    font-size: 17px;
-    margin-bottom: 20px;
-}
+		display: inline-block !important;
+		float: right;
+		width: 110px;
+	}
+
+	.default-page p {
+	    font-family: 'Droid Serif', serif;
+	    font-size: 17px;
+	    margin-bottom: 20px;
+	}
 }
