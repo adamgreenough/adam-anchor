@@ -559,7 +559,6 @@ footer#bottom a {
 	color: #98a2b1;
 	font-size: 14px;
 	font-style: italic;
-	white-space: nowrap;
 }
 	.footnote {
 		padding: 20px 0 40px;
@@ -845,6 +844,18 @@ a, a img {
 }
 
 @media (max-width: 640px) {
+	
+	h1 {
+		font-size: 1.6em;
+	}
+	
+	h2, .items h2 {
+		font-size: 1.45em;
+	}
+	
+	#bottom small {
+		font-size: 11px;
+	}
 	#home-title h1 {
     color: #ffffff;
     position: relative;
@@ -869,6 +880,12 @@ a, a img {
     width: 100%;
     overflow: visible;
     opacity: 0.8;
+}
+
+.default-page p {
+    font-family: 'Droid Serif', serif;
+    font-size: 19px;
+    margin-bottom: 20px;
 }
 }
 

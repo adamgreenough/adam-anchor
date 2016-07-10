@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title><?php echo page_title('Page can’t be found'); ?> - <?php echo site_name(); ?></title>
+		<title><?php echo page_title('Error 404'); ?> — <?php echo site_name(); ?></title>
 
 		<meta name="description" content="<?php echo site_description(); ?>">
 
