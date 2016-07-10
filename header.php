@@ -136,11 +136,13 @@
 								
 							</ul>
 						</nav>
-												<nav id="main" class="mobile-menu">
+						
+						<nav id="main" class="mobile-menu">
 							<ul>
 								<li><a href="#tray" class="linky"><i class="fa fa-bars"></i>Menu</a></li>	
-						</ul>
+							</ul>
 						</nav>
+						
 					</div>
 				</div>
 			</header>
