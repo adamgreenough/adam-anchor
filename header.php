@@ -97,6 +97,26 @@
 						<?php } endwhile; ?>
 						</ul>
 					</div>
+					
+					<div class="large-6 columns mobile-menu">
+						<h4>Pages</h4>
+						<ul>
+							<li>
+								<a href="/" title="Adam Greenough">
+									Home								</a>
+							</li>
+														<li>
+								<a href="/about/" title="About Adam Greenough">
+									About
+								</a>
+							</li>
+														<li>
+								<a href="/posts/" title="Adam Greenough Blog">
+									Posts
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 
@@ -114,7 +134,13 @@
 								<li <?php if (page_id() == 2) { echo 'class="active"'; } ?>><a href="/about" title="Homepage"><i class="fa fa-user"></i>About</a></li>
 								<li <?php if (is_postspage()) { echo 'class="active"'; } ?>><a href="/posts" title="Homepage"><i class="fa fa-pencil"></i>Posts</a></li>
 								<li><a href="#tray" class="linky"><i class="fa fa-search"></i>Search</a></li>
+								
 							</ul>
+						</nav>
+												<nav id="main" class="mobile-menu">
+							<ul>
+								<li><a href="#tray" class="linky"><i class="fa fa-bars"></i>Menu</a></li>	
+						</ul>
 						</nav>
 					</div>
 				</div>

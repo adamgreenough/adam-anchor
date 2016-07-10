@@ -13,7 +13,7 @@
 		<div class="large-8 main-content columns">
 			<p>Since I first laid my hands on a computer I have been fascinated with the unlimited potential for creativity, communication and change that the world wide web offered. I built my <a href="#firstwebsite" class="underline" rel="modal:open">first website</a> with my father age 7 and I've not stopped learning since.  </p>
 			<div id="firstwebsite" style="display: none;"><img src="https://adamgreenough.com/content/adamspokemonplace.png"></div>
-			<p>Now, I run my own small-but-mighty agency, Amazorize, and craft data-driven experiences at Atelier Studios.</p>
+			<p>Now, I run my own small-but-mighty agency, <a href="https://amazorize.com" target="_blank" class="amazorize">Amazorize</a>, and craft data-driven experiences at <a href="http://atelierstudios.com" target="_blank" class="atelier">Atelier</a>.</p>
 			<a href="/about" class="body-button-outline"><i class="fa fa-user"></i> About Me</a>
 			<div class="home-posts">
 				<h1>Latest Posts</h1>

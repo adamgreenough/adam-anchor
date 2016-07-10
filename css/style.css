@@ -3,6 +3,16 @@
  * Adam Greenough Styles
  *
  ****************************************/
+ 
+a.amazorize {
+	color: #1993DD; 	 
+	border-color: #1993DD; 
+ }
+ 
+a.atelier {
+	color: #B71A5D; 
+	border-color: #B71A5D; 
+}
 
 body, p {
 	font-family: 'Open Sans', sans-serif;
@@ -785,4 +795,107 @@ a, a img {
 	-webkit-transition: opacity .2s, color .2s;
 	-moz-transition: opacity .2s, color .2s;
 	transition: opacity .2s, color .2s;
+}
+
+/** Media Queries **/
+
+.mobile-menu {
+	display: none;
+}
+
+/* Large Column Breakpoint */
+@media (max-width: 1024px) {
+	
+#home-title h1 {
+    color: #ffffff;
+    position: relative;
+    z-index: 100;
+    font-size: 32px;
+    color: rgba(255,255,255,0.5);
+    opacity: 1;
+    line-height: 1.4;
+    width: 80%;
+    padding: 100px 0px 120px 0px;
+}
+	
+	.sidebar-wrapper {
+    padding: 0px;
+    border-left: none;
+}
+
+#instagram-wrapper img {
+    float: left;
+    width: 24%;
+    margin: 0% 1.333% 1.5% 0%;
+    border-radius: 5px !important;
+}
+
+#instagram-wrapper img:last-child {
+	margin-right: 0%;
+
+}
+
+.slidey .large-6 {
+	margin-top: 30px;
+}
+
+.slidey .large-6:first-child {
+	margin-top: 0px;
+}
+}
+
+@media (max-width: 640px) {
+	#home-title h1 {
+    color: #ffffff;
+    position: relative;
+    z-index: 100;
+    font-size: 24px;
+    color: rgba(255,255,255,0.5);
+    opacity: 1;
+    line-height: 1.4;
+    width: 100%;
+    padding: 40px 0px 50px 0px;
+}
+#home-title .adam-face {
+    background-image: url('../img/adam_header_face.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    float: right;
+    height: 100%;
+    position: absolute;
+    right: -30px;
+    top: 0%;
+    width: 100%;
+    overflow: visible;
+    opacity: 0.8;
+}
+}
+
+@media (max-width: 580px) {
+nav#main ul li {
+    width: 75px;
+}
+	}
+	
+@media (max-width: 450px) {
+	.mobile-menu {
+		display: block;
+	}
+	
+	nav#main {
+	    display: none;
+	}
+	
+		nav#main.mobile-menu ul li {
+	    width: 100px;
+	    display: inline-block;
+	    float: right;
+	}
+	
+	nav.mobile-menu {
+	display: inline-block !important;
+	float: right;
+	width: 110px;
+}
 }
