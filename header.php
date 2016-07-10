@@ -79,13 +79,13 @@
 				<div class="row">
 					<div class="large-6 columns">
 						<form id="search" action="<?php echo search_url(); ?>" method="post">
-							<label for="term">Search my blog:</label>
+							<label for="term"><h4>Search</h4></label>
 							<input type="search" id="term" name="term" placeholder="To search, type and hit enter&hellip;" value="<?php echo search_term(); ?>">
 							<input type="hidden" id="whatSearch" name="whatSearch" value="all" />
 						</form>
 					</div>
 					<div class="large-6 columns">
-						<b>Categories</b>
+						<h4>Categories</h4>
 						<ul>
 						<?php while(categories()): 
 								if (category_count() > 0) { ?>

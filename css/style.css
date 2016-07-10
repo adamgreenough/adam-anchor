@@ -49,6 +49,26 @@ a.body-button-outline:hover {
 	color: #002269; 
 }
 
+#tray h4 {
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+}
+
+#tray a {
+	font-size: 14px;
+}
+
+#tray form {
+	width: 100%;
+}
+
+#tray input {
+	width: 100%;
+	margin-top: -40px;
+} 
+
 nav#main ul li {
 	border-left: solid 1px #eeeeee;
 	text-align: center;
@@ -377,10 +397,6 @@ footer#bottom a {
  ****************************************/
 
 
-	.search h1 {
-		padding: 60px 0;
-	}
-
 /* The slide-down panel at the very top of the page. Like literally. It's above the page, hidden. */
 .slidey {
 	overflow: hidden;
@@ -394,22 +410,7 @@ footer#bottom a {
 		-moz-transition: margin-top .2s;
 		transition: margin-top .2s;
 	}
-	.slidey b, .slidey label {
-		display: block;
-		font-weight: 500;
-		padding-bottom: 15px;
 
-		font-size: 15px;
-		font-weight: 500;
-	}
-	.slidey form, .slidey aside {
-		float: left;
-		width: 50%;
-	}
-		.slidey form input {
-			padding: 20px;
-			width: 75%;
-		}
 	.slidey li {
 		list-style: none;
 	}
