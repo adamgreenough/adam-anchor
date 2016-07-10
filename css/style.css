@@ -895,7 +895,7 @@ nav#main ul li {
 }
 	}
 	
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 	.mobile-menu {
 		display: block;
 	}
@@ -914,5 +914,10 @@ nav#main ul li {
 	display: inline-block !important;
 	float: right;
 	width: 110px;
+}
+.default-page p {
+    font-family: 'Droid Serif', serif;
+    font-size: 17px;
+    margin-bottom: 20px;
 }
 }
