@@ -29,20 +29,20 @@
 		<?php endwhile; ?>
 	</ul>
 
-	<?php if(has_search_pagination()): ?>
-		<nav class="pagination">
-			<div class="row">
-				<div class="large-12 columns">
-				<div class="previous">
-					<?php echo search_prev('<i class="fa fa-hand-o-left" aria-hidden="true"></i> OLDER POSTS'); ?>	
-				</div>
-				<div class="next">
-					<?php echo search_next('NEWER POSTS <i class="fa fa-hand-o-right" aria-hidden="true"></i>'); ?>				
-				</div>
-				</div>
+<?php if(has_search_pagination()): ?>
+	<nav class="pagination">
+		<div class="row">
+			<div class="large-12 columns">
+			<div class="previous">
+				<?php echo search_prev('<i class="fa fa-hand-o-left" aria-hidden="true"></i> OLDER POSTS'); ?>	
 			</div>
-		</nav>
-	<?php endif; ?>
+			<div class="next">
+				<?php echo search_next('NEWER POSTS <i class="fa fa-hand-o-right" aria-hidden="true"></i>'); ?>				
+			</div>
+			</div>
+		</div>
+	</nav>
+<?php endif; ?>
 
 <?php else: ?>
 	<p class="wrap">Unfortunately, there's no results for &ldquo;<?php echo search_term(); ?>&rdquo;. Did you spell everything correctly?</p>

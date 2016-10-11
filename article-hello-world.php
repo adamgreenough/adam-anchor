@@ -1,5 +1,5 @@
 <?php theme_include('header'); ?>
-		<section class="content wrap" id="article-<?php echo article_id(); ?>">
+		<section class="content wrap convert-emoji" id="article-<?php echo article_id(); ?>">
 			<h1><?php echo article_title(); ?></h1>
 
 			<article>

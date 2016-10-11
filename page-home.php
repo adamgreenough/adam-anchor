@@ -10,7 +10,7 @@
 	</div>
 	
 	<div class="row">
-		<div class="large-8 main-content columns">
+		<div class="large-8 main-content columns convert-emoji">
 			<p>Since I first laid my hands on a computer I have been fascinated with the unlimited potential for creativity, communication and change that the world wide web offered. I built my <a href="#firstwebsite" class="underline" rel="modal:open">first website</a> with my father age 7 and I've not stopped learning since.  </p>
 			<div id="firstwebsite" style="display: none;"><img src="https://adamgreenough.com/content/adamspokemonplace.png"></div>
 			<p>Now, I run my own small-but-mighty agency, <a href="https://amazorize.com" target="_blank" class="amazorize">Amazorize</a>, and craft data-driven experiences at <a href="http://atelierstudios.com" target="_blank" class="atelier">Atelier</a>.</p>
@@ -79,10 +79,10 @@
 			</div>
 		</div>
 	
-		<div class="availability">
+		<div class="availability convert-emoji">
 			<div class="row">
 				<div class="large-12 columns">
-					<div class="availability-switch"><div class="dot"></div></div>LOOKING FOR NEW OPPORTUNITIES (Portsmouth/Southampton/Remote)
+					<div class="availability-switch"><div class="dot"></div></div>LOOKING FOR NEW OPPORTUNITIES :smile: (Portsmouth/Southampton/Remote)
 				</div>
 			</div>
 		</div>

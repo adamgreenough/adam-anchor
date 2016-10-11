@@ -1,6 +1,6 @@
 <?php theme_include('header'); ?>
 
-<div class="row" id="article-<?php echo article_id(); ?>">
+<div class="row convert-emoji" id="article-<?php echo article_id(); ?>">
 	<div class="columns large-10 large-offset-1">
 		<section class="default-page">
 			<h1><?php echo article_title(); ?><small>Posted <time datetime="<?php echo date(DATE_COOKIE, article_time()); ?>"><?php echo date(DATE_COOKIE, article_time()); ?></time>, filed under <?php echo article_category(); ?>.</small></h1>

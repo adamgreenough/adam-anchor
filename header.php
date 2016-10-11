@@ -1,5 +1,16 @@
 <!doctype html>
 <html lang="en">
+	
+	<!---------------------------------------------------------------------
+	   _      _               ___                                _    
+	  /_\  __| |__ _ _ __    / __|_ _ ___ ___ _ _  ___ _  _ __ _| |_  
+	 / _ \/ _` / _` | '  \  | (_ | '_/ -_) -_) ' \/ _ \ || / _` | ' \ 
+	/_/ \_\__,_\__,_|_|_|_|  \___|_| \___\___|_||_\___/\_,_\__, |_||_| .com
+	                                                       |___/  
+	                       Powered by Anchor CMS
+	                                                                                         
+	----------------------------------------------------------------------->
+	
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo page_title('Error 404'); ?> — <?php echo site_name(); ?></title>
@@ -10,7 +21,7 @@
 		<link rel="stylesheet" href="<?php echo theme_url('/css/style.css'); ?>">
 		<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700|Montserrat:400,700|Open+Sans:400,400i,700" rel="stylesheet">
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
-		<link rel="shortcut icon" href="<?php echo theme_url('img/favicon.png'); ?>">
+		<link rel="shortcut icon" href="<?php echo theme_url('img/favicon.png'); ?>">	
 
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -72,6 +83,7 @@
     		<script><?php echo article_js(); ?></script>
 		<?php endif; ?>
 	</head>
+	
 	<body class="<?php echo body_class(); ?>">
 		<div class="main-wrap">
 			<div class="slidey" id="tray">

@@ -1,6 +1,6 @@
 <?php theme_include('header'); ?>
 
-		<section class="content default-page">
+		<section class="content default-page convert-emoji">
 			<div class="row">
 			<div class="columns large-10 large-offset-1">
 			<h1><?php echo page_title(); ?></h1>
