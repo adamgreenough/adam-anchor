@@ -26,5 +26,10 @@
 		    });
 		</script>
 		
+		<style>
+			.slidey {
+				display: block;
+			}
+		</style>
     </body>
 </html>
