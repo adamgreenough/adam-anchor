@@ -110,6 +110,11 @@ function raw_category_title() {
       return $result;
     }
     
+function html_page_content() {
+    // if you just want the raw content you saved
+    return Registry::prop('page', 'html');
+}
+    
 function search_item_description() {
 	return Registry::prop('search_item', 'description');
 } 

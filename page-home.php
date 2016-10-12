@@ -82,7 +82,7 @@
 		<div class="availability convert-emoji">
 			<div class="row">
 				<div class="large-12 columns">
-					<div class="availability-switch"><div class="dot"></div></div>LOOKING FOR NEW OPPORTUNITIES :smile: (Portsmouth/Southampton/Remote)
+					<div class="availability-switch"><div class="dot"></div></div>LOOKING FOR NEW OPPORTUNITIES (Portsmouth/Southampton/Remote)
 				</div>
 			</div>
 		</div>

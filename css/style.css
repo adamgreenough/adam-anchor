@@ -412,6 +412,31 @@ a.atelier {
 	border-color: #B71A5D; 
 }
 
+a.facebook {
+	color: #3b5998; 
+	border-color: #3b5998; 
+}
+
+a.twitter {
+	color: #55acee; 
+	border-color: #55acee; 
+}
+
+a.linkedin {
+	color: #007bb5; 
+	border-color: #007bb5; 
+}
+
+a.instagram {
+	color: #125688; 
+	border-color: #125688; 
+}
+
+a.dribbble {
+	color: #ea4c89; 
+	border-color: #ea4c89; 
+}
+
 a.body-button-outline {
 	padding: 15px 20px;
 	border: solid 3px #002269;
@@ -428,6 +453,20 @@ a.body-button-outline {
 
 a.body-button-outline:hover {
 	color: #002269; 
+}
+
+.caption {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgba(0,0,0,0.5);
+	padding: 5px 0 20px 0;
+}
+
+.small-caps {
+	text-transform: uppercase;
+	font-size: 85%;
+	font-weight: 500;
+	letter-spacing: 1px;
 }
 
 /****************************************
