@@ -45,7 +45,11 @@
 <?php endif; ?>
 
 <?php else: ?>
-	<p class="wrap">Unfortunately, there's no results for &ldquo;<?php echo search_term(); ?>&rdquo;. Did you spell everything correctly?</p>
+		<div class="row">
+			<div class="large-12 columns main-content convert-emoji">
+				Unfortunately, there's no results for &ldquo;<?php echo search_term(); ?>&rdquo;. Did you spell everything correctly? :spy:</p>
+			</div>
+		</div>
 <?php endif; ?>
 
 <?php theme_include('footer'); ?>

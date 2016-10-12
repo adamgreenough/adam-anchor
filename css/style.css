@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-p a {
+p a, .default-page li a {
 	border-bottom: solid 3px #002269;
 	font-weight: bold;
 	color: #002269;
@@ -820,6 +820,12 @@ a.twitter-timeline .timeline-Tweet-text {
 }
 
 .default-page p {
+	font-family: 'Droid Serif', serif;
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+.default-page li, .default-page li a {
 	font-family: 'Droid Serif', serif;
 	font-size: 21px;
 	margin-bottom: 20px;

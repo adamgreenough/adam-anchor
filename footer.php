@@ -1,7 +1,7 @@
 		<footer id="bottom">
 			<div class="row">
 				<div class="large-12 columns">
-					<small><a href="/imprint">Imprint</a> &nbsp; <a href="/terms">Terms</a>
+					<small><a href="/imprint">Imprint</a> &nbsp; <a href="/terms">Terms</a> &nbsp; <a href="https://github.com/xadz/adam" target="_blank">GitHub</a>
 					<br />&copy; <?php echo date('Y'); ?> Adam Greenough, unless otherwise noted. All rights reserved.</small>				
 				</div>
 			</div>
