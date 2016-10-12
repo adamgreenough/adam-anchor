@@ -85,6 +85,10 @@
 	</head>
 	
 	<body class="<?php echo body_class(); ?>">
+		<div id="preloader">
+		    <div id="status">&nbsp;</div>
+		</div>
+		
 		<div class="main-wrap">
 			<div class="slidey" id="tray">
 				<div class="row">
