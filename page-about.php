@@ -27,7 +27,7 @@
 			
 			<div class="row">
 				<div class="columns large-10 large-offset-1">
-					<p>For now though, this website serves as a personal playground and home of the occasional blog post. I have never been much of a writer, as much as I love the idea, so I like to think of my posts as little works of digital art and a way of trying out new techniques that are a touch too experimental for my day-to-day client projects but I'd like to try anyway. You should <a href="/posts/">check them out</a>.</p>
+					<p>For now though, this website serves as a personal playground and home of the occasional blog post. I have never been much of a writer, as much as I love the idea, so I like to think of my posts as little works of digital art; a way of trying out new ideas that are a touch too experimental for my day-to-day client projects. You should <a href="/posts/">check them out</a>.</p>
 					
 					<p>If for one reason or another you'd like to contact me, <a href="https://twitter.com/adam_greenough" class="twitter" target="_blank">Twitter</a> is normally a good choice. I also <a href="https://www.facebook.com/acgreenough" class="facebook" target="_blank">Facebook</a>, <a href="https://uk.linkedin.com/in/adamgreenough" class="linkedin" target="_blank">LinkedIn</a>, <a href="https://www.instagram.com/adam_greenough/" class="instagram" target="_blank">Instagram</a>, <a href="https://dribbble.com/xadz" class="dribbble" target="_blank">Dribbble</a> and email <em>(but you have to ask for that one, or just look hard enough)</em>. <span class="end-mark">&#11043;</span>
 				</div>

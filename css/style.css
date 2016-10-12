@@ -937,7 +937,8 @@ a, a img {
 	}
 	
 	#bottom small {
-		font-size: 11px;
+		font-size: 12px;
+		line-height: 1.1;
 	}
 	
 	#home-title h1 {
@@ -979,6 +980,34 @@ a, a img {
 	    width: 75px;
 	}
 }
+	
+@media (max-width: 510px) {
+	#home-title h1 {
+	    color: #ffffff;
+	    position: relative;
+	    z-index: 100;
+	    font-size: 22px;
+	    color: rgba(255,255,255,0.5);
+	    opacity: 1;
+	    line-height: 1.4;
+	    width: 100%;
+	    padding: 40px 0px 50px 0px;
+	}
+	
+	#home-title h1 .highlight {
+	color: #fff;
+	white-space: normal;
+}
+
+.home p {
+    font-size: 16px;
+}
+
+.home-single a {
+    font-size: 16px;
+}
+}
+	
 	
 @media (max-width: 480px) {
 	.mobile-menu {
