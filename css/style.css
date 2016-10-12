@@ -468,6 +468,11 @@ a.body-button-outline:hover {
 	letter-spacing: 1px;
 }
 
+.end-mark {
+	color: #c50000;
+	padding: 0 0 3px 0;
+}
+
 /****************************************
  *
  * Header
