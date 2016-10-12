@@ -1,0 +1,68 @@
+.hello-world-container {
+	background: #1f1f1f;;
+	padding: 0px 0px 200px 0px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.hello-world-bar {
+	border-bottom: rgba(255,255,255,0.10) solid 1px;
+	font-size: 12px;
+	font-weight: bold;
+	color: rgba(255,255,255,0.5);
+	padding: 15px 0px;
+	margin-bottom: 100px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.comment {
+	color: rgba(255,255,255,0.2);
+	margin-bottom: 50px;
+}
+
+.code {
+	color: #fff;
+	min-height: 400px;
+}
+
+.code .line {
+}
+
+.code .indend-0 {
+	padding-left: 0;
+}
+
+.code .indent-1 {
+	padding-left: 25px;
+}
+
+.code .indent-2 {
+	padding-left: 50px;
+}
+
+.code .pink {
+	color: #e63547;
+}
+
+.code .yellow {
+	color: #e3d364;
+}
+
+.code .green {
+	color: #a2e100;
+}
+
+.code a {
+	color: #fff;
+	transition: 0.5s;
+}
+
+.coda a:hover {
+	margin-top: -10px;
+	transition: 0.5s;
+}
+
+@media (max-width: 740px) {
+	.comment {
+		display: none;
+	}
+}

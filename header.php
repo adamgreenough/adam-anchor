@@ -21,15 +21,18 @@
 		<link rel="stylesheet" href="<?php echo theme_url('/css/style.css'); ?>">
 		<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700|Montserrat:400,700|Open+Sans:400,400i,700" rel="stylesheet">
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
-		<link rel="shortcut icon" href="<?php echo theme_url('img/favicon.png'); ?>">	
-
+		<link rel="shortcut icon" href="<?php echo theme_url('img/favicon.png'); ?>">
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
 		<script>var base = '<?php echo theme_url(); ?>';</script>
 		<script src="<?php echo asset_url('/js/zepto.js'); ?>"></script>
-		<script src="<?php echo theme_url('/js/main.js'); ?>"></script>	
+		<script src="<?php echo theme_url('/js/main.js'); ?>"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script>jQuery.noConflict();</script>
+		<script src="<?php echo theme_url('/js/jquery-plugins.js'); ?>"></script>		
+	
 		<script src="https://use.fontawesome.com/d914ed9ee8.js"></script>
 	    <meta name="viewport" content="width=device-width">
 	    <meta name="generator" content="Anchor CMS">

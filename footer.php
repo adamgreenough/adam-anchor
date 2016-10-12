@@ -8,9 +8,6 @@
 		</footer>
        
 		<script id="dsq-count-scr" src="//adamgreenough.disqus.com/count.js" async></script>
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-		<script>jQuery.noConflict();</script>
-		<script src="<?php echo theme_url('/js/jquery-plugins.js'); ?>"></script>	
 		
 		<script src="https://cdn.jsdelivr.net/emojione/2.2.6/lib/js/emojione.min.js"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/emojione/2.2.6/assets/css/emojione.min.css"/>
