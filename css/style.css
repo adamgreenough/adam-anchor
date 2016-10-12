@@ -470,7 +470,8 @@ a.body-button-outline:hover {
 
 .end-mark {
 	color: #c50000;
-	padding: 0 0 3px 0;
+	top: -0.11em;
+    position: relative;
 }
 
 /****************************************
