@@ -24,11 +24,11 @@
 		</script>
 		
 		<script type="text/javascript">
-	        jQuery(window).on('load', function() { // makes sure the whole site is loaded 
+	        jQuery( document ).ready(function() {
 	            jQuery('#status').fadeOut(); // will first fade out the loading animation 
 	            jQuery('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
 	            jQuery('body').delay(350).css({'overflow':'visible'});
-	        })
+	        });
 		</script>
     </body>
 </html>

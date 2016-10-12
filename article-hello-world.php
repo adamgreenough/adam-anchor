@@ -42,7 +42,7 @@
 			
 			<span class="indent-0"></span>&#x3C;<span class="pink">h1</span>&#x3E;<br />
 			<span class="indent-1"></span>&#x9;Hello World!</span><br />
-			<span class="indent-1"></span>&#x9;&#x3C;<span class="pink">small</span>&#x3E;Posted 12th October 2016, filed under Random&#x3C;/<span class="pink">small</span>&#x3E;<br />
+			<span class="indent-1"></span>&#x9;&#x3C;<span class="pink">small</span>&#x3E;Posted 12th October 2016, filed under Uncategorised&#x3C;/<span class="pink">small</span>&#x3E;<br />
 			<span class="indent-0"></span>&#x3C;/<span class="pink">h1</span>&#x3E;<br />
 			<br />
 			
