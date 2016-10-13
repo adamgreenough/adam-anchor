@@ -51,6 +51,11 @@
 	background: #fff;
 	border-bottom: 1px solid rgba(22,36,54,.1);
 }
+
+	#logo {
+		margin-top: 3px;
+	}
+
 	#top a {
 		float: left;
 
@@ -622,7 +627,7 @@ footer#bottom a {
 	opacity: 1;
 	line-height: 1.4;
 	width: 90%;
-	padding: 100px 0px 120px 0px;
+	padding: 100px 0px 110px 0px;
 }
 
 #home-title h1 .highlight {
