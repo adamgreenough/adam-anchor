@@ -1,0 +1,49 @@
+.default-page {
+	overflow: hidden;
+}
+
+#map {
+height: 500px;
+}
+
+.fa-star {
+  color: #ffc807;
+}
+
+.collage1 {
+
+    /* define how much padding you want in between your images */
+    padding:10px;
+    margin: 25px 0px 45px 0px;
+
+    }
+
+.collage1 img{
+
+    /* ensures padding at the bottom of the image is correct */
+    vertical-align:bottom;
+
+    /* hide the images until the plugin has run. the plugin will reveal the images*/
+    opacity:0;
+
+    }
+    
+    .large-offset-1 {
+	    float: left !important;
+	    position: relative;
+    }
+    
+.stamp {
+	width: 284px;
+	height: 356px;
+	background-image: url('img/stamp.png');
+	background-size: cover;
+	position: absolute;
+	right: -100px;
+	bottom: -100px;
+	z-index: -1;
+}
+
+.comments {
+	background: #fbfbfb;
+}
