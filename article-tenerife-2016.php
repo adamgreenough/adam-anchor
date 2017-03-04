@@ -83,7 +83,7 @@
 			<p>Tenerife is an active volcanic island, formed by successive eruptions of the Teide volcano. As a result, the landscape is rugged & rocky and the beaches covered with the islands characteristic black pebbles & sand.</p>
 			<p>Teide volcano, the third-largest volcano in the world, is visible from most parts of the island. It was a stunning backdrop in dramatic contrast to the calm, uninterrupted Atlantic. It has not erupted since 1909, but a violent eruption is predicted in the future.</p>
 			<p>From around 1000 BC, the island was inhabited by natives called Guanches. To them, Tiede was a sacred mountain, as they believed that Teide held up the sky. Many hiding places found in the mountains contain the remains of stone tools and pottery seen as being ritual deposits to counter the influence of evil spirits.</p>
-			<p>In more recent history, Tenerife was the last of the Canaries to be conquered by the Spanish in 1496 and in 1987 the British invasion of Tenerife resulted in Admiral Nelson, who launched the attack, being severely wounded resulting in the amputation of most of his right arm.</p>
+			<p>In more recent history, Tenerife was the last of the Canaries to be conquered by the Spanish in 1496 and in 1787 the British invasion of Tenerife resulted in Admiral Nelson, who launched the attack, being severely wounded resulting in the amputation of most of his right arm.</p>
 			<p>The San Blas resort showcased a number of ancient artifacts and also had a museum about the islands rich history.</p> 
 				
 		</div>
