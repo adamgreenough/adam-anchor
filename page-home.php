@@ -47,7 +47,7 @@
 						var clientID = "bf5c78448b2645fc9fa7b865a6573366";
 						var tag = "12320619";
 						
-						var jsonpURL = "https://api.instagram.com/v1/users/" + tag + "/media/recent?access_token=12320619.1677ed0.d7de38e4527d4705abdfb6783a9299a1&callback=listImages&count=" + count;
+						var jsonpURL = "https://api.instagram.com/v1/users/" + tag + "/media/recent?access_token=12320619.1677ed0.f11516e4920148019725c8c6a62b2621&callback=listImages&count=" + count;
 						var script = document.createElement('script');
 						script.type = 'text/javascript';
 						script.src = jsonpURL;
