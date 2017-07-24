@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="large-12 columns">
 				<div class="adam-face"></div>		
-				<h1>Hello! My name's <span class="highlight"><i class="fa fa-user" aria-hidden="true"></i> Adam Greenough</span>, <span class="highlight"><i class="fa fa-code" aria-hidden="true"></i> design-orientated developer</span> & <span class="highlight"><i class="fa fa-comments-o" aria-hidden="true"></i> digital consultant</span> from the <del>sunny</del> south coast of the <span class="highlight"><i class="fa fa-location-arrow" aria-hidden="true"></i> United Kingdom</span>.
+				<h1>Hello! My name's <span class="highlight"><i class="fa fa-user" aria-hidden="true"></i> Adam Greenough</span>, <span class="highlight"><i class="fa fa-code" aria-hidden="true"></i> design-oriented developer</span> & <span class="highlight"><i class="fa fa-comments-o" aria-hidden="true"></i> digital consultant</span> from the <del>sunny</del> south coast of the <span class="highlight"><i class="fa fa-location-arrow" aria-hidden="true"></i> United Kingdom</span>.
 			</div>
 		</div>
 	</div>

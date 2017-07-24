@@ -5,7 +5,7 @@
 				<div class="columns large-10 large-offset-1">
 					<h1><?php echo page_title(); ?></h1>
 	
-					<p>Hello! My name's Adam, 21 years young from the sunny south coast of the United Kingdom. By day, I am a design-orientated developer and digital consultant. By night, well, mostly that too.</p>
+					<p>Hello! My name's Adam, 22 years young from the sunny south coast of the United Kingdom. By day, I am a design-oriented developer and digital consultant. By night, well, mostly that too.</p>
 				</div>
 			</div>
 			
